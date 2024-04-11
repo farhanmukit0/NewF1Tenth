@@ -1,0 +1,49 @@
+[0.460s] Invoking command in '/home/parallels/yashomgit/f1tenth_gym_ros': PYTHONPATH=/home/parallels/yashomgit/build/f1tenth_gym_ros/prefix_override:/home/parallels/yashomgit/install/f1tenth_gym_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/f1tenth_gym_ros build --build-base /home/parallels/yashomgit/build/f1tenth_gym_ros/build install --record /home/parallels/yashomgit/build/f1tenth_gym_ros/install.log --install-scripts $base/lib/f1tenth_gym_ros --single-version-externally-managed
+[0.566s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[0.567s]   warnings.warn(
+[0.571s] running egg_info
+[0.571s] creating ../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info
+[0.572s] writing ../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/PKG-INFO
+[0.572s] writing dependency_links to ../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/dependency_links.txt
+[0.572s] writing entry points to ../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/entry_points.txt
+[0.572s] writing requirements to ../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/requires.txt
+[0.572s] writing top-level names to ../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/top_level.txt
+[0.572s] writing manifest file '../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/SOURCES.txt'
+[0.573s] reading manifest file '../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/SOURCES.txt'
+[0.573s] adding license file 'LICENSE'
+[0.573s] writing manifest file '../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/SOURCES.txt'
+[0.574s] running build
+[0.574s] running build_py
+[0.574s] creating /home/parallels/yashomgit/build/f1tenth_gym_ros/build
+[0.574s] creating /home/parallels/yashomgit/build/f1tenth_gym_ros/build/lib
+[0.574s] creating /home/parallels/yashomgit/build/f1tenth_gym_ros/build/lib/f1tenth_gym_ros
+[0.574s] copying f1tenth_gym_ros/__init__.py -> /home/parallels/yashomgit/build/f1tenth_gym_ros/build/lib/f1tenth_gym_ros
+[0.574s] copying f1tenth_gym_ros/gym_bridge.py -> /home/parallels/yashomgit/build/f1tenth_gym_ros/build/lib/f1tenth_gym_ros
+[0.574s] running install
+[0.575s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.575s]   warnings.warn(
+[0.575s] running install_lib
+[0.576s] creating /home/parallels/yashomgit/install/f1tenth_gym_ros/lib/python3.10/site-packages/f1tenth_gym_ros
+[0.576s] copying /home/parallels/yashomgit/build/f1tenth_gym_ros/build/lib/f1tenth_gym_ros/__init__.py -> /home/parallels/yashomgit/install/f1tenth_gym_ros/lib/python3.10/site-packages/f1tenth_gym_ros
+[0.576s] copying /home/parallels/yashomgit/build/f1tenth_gym_ros/build/lib/f1tenth_gym_ros/gym_bridge.py -> /home/parallels/yashomgit/install/f1tenth_gym_ros/lib/python3.10/site-packages/f1tenth_gym_ros
+[0.576s] byte-compiling /home/parallels/yashomgit/install/f1tenth_gym_ros/lib/python3.10/site-packages/f1tenth_gym_ros/__init__.py to __init__.cpython-310.pyc
+[0.576s] byte-compiling /home/parallels/yashomgit/install/f1tenth_gym_ros/lib/python3.10/site-packages/f1tenth_gym_ros/gym_bridge.py to gym_bridge.cpython-310.pyc
+[0.579s] running install_data
+[0.579s] creating /home/parallels/yashomgit/install/f1tenth_gym_ros/share/ament_index
+[0.579s] creating /home/parallels/yashomgit/install/f1tenth_gym_ros/share/ament_index/resource_index
+[0.579s] creating /home/parallels/yashomgit/install/f1tenth_gym_ros/share/ament_index/resource_index/packages
+[0.579s] copying resource/f1tenth_gym_ros -> /home/parallels/yashomgit/install/f1tenth_gym_ros/share/ament_index/resource_index/packages
+[0.579s] copying package.xml -> /home/parallels/yashomgit/install/f1tenth_gym_ros/share/f1tenth_gym_ros
+[0.580s] creating /home/parallels/yashomgit/install/f1tenth_gym_ros/share/f1tenth_gym_ros/launch
+[0.580s] copying launch/gym_bridge_launch.py -> /home/parallels/yashomgit/install/f1tenth_gym_ros/share/f1tenth_gym_ros/launch
+[0.580s] copying launch/ego_racecar.xacro -> /home/parallels/yashomgit/install/f1tenth_gym_ros/share/f1tenth_gym_ros/launch
+[0.580s] copying launch/opp_racecar.xacro -> /home/parallels/yashomgit/install/f1tenth_gym_ros/share/f1tenth_gym_ros/launch
+[0.580s] copying launch/gym_bridge.rviz -> /home/parallels/yashomgit/install/f1tenth_gym_ros/share/f1tenth_gym_ros/launch
+[0.580s] creating /home/parallels/yashomgit/install/f1tenth_gym_ros/share/f1tenth_gym_ros/config
+[0.580s] copying config/sim.yaml -> /home/parallels/yashomgit/install/f1tenth_gym_ros/share/f1tenth_gym_ros/config
+[0.581s] running install_egg_info
+[0.582s] Copying ../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info to /home/parallels/yashomgit/install/f1tenth_gym_ros/lib/python3.10/site-packages/f1tenth_gym_ros-0.0.0-py3.10.egg-info
+[0.582s] running install_scripts
+[0.594s] Installing gym_bridge script to /home/parallels/yashomgit/install/f1tenth_gym_ros/lib/f1tenth_gym_ros
+[0.594s] writing list of installed files to '/home/parallels/yashomgit/build/f1tenth_gym_ros/install.log'
+[0.607s] Invoked command in '/home/parallels/yashomgit/f1tenth_gym_ros' returned '0': PYTHONPATH=/home/parallels/yashomgit/build/f1tenth_gym_ros/prefix_override:/home/parallels/yashomgit/install/f1tenth_gym_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/f1tenth_gym_ros build --build-base /home/parallels/yashomgit/build/f1tenth_gym_ros/build install --record /home/parallels/yashomgit/build/f1tenth_gym_ros/install.log --install-scripts $base/lib/f1tenth_gym_ros --single-version-externally-managed
